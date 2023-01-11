@@ -2,8 +2,8 @@ function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
         <Container>
-            <h1>ToDo App by Lysiane Burel</h1>
             <Row>
+                <h1>ToDo App by Lysiane Burel</h1>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
                 </Col>
